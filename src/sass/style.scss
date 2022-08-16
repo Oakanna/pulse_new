@@ -1,5 +1,11 @@
-@import "base/variables";
 @import "base/nullstyle";
-* {
-   font-family: "Museo Sans Cyrl", sans-serif;
+@import "base/variables";
+
+.container {
+   max-width: 950px;
+   margin: 0 auto;
 }
+@import "blocks/_promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "base/media";

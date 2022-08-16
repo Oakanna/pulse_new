@@ -8,6 +8,8 @@
 }
 a {
    text-decoration: none;
+   color: inherit;
+   display: block;
 }
 ul,
 ol,
@@ -26,12 +28,31 @@ h6 {
    font-weight: inherit;
    font-size: inherit;
 }
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+
+   &::-moz-focus-inner {
+      padding: 0;
+      border: 0;
+   }
+}
+
 html,
 body {
    height: 100%;
    line-height: 1;
    font-size: 14px;
    color: #252b42;
-   font-family: Montserrat;
+   font-family: "Museo Sans Cyrl", sans-serif;
    font-weight: 500;
 }
