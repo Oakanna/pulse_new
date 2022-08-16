@@ -45,6 +45,23 @@
          }
       }
    }
+   .advantage {
+      &__wrapper {
+         flex-direction: column;
+         align-items: center;
+      }
+      &__card {
+         &:not(:last-child) {
+            margin-bottom: 20px;
+         }
+         img {
+            margin-bottom: 10px;
+         }
+      }
+   }
+   .title {
+      font-size: 22px;
+   }
 }
 @media (max-width: 375px) {
    .promo {
