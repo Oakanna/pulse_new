@@ -4,7 +4,14 @@
    font-weight: 700;
    color: #0d0d0d;
    text-align: center;
+   text-transform: uppercase;
    &__advantage {
       margin-bottom: 65px;
+   }
+   &__consultation {
+      font-size: 36px;
+      color: #ffffff;
+      text-align: left;
+      margin-bottom: 75px;
    }
 }
