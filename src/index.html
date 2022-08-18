@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pulse</title>
     <link rel="stylesheet" href="css/font.css" />
+    <!-- <link rel="stylesheet" href="css/slick.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <div class="promo">
+    <section class="promo">
       <div class="container">
         <header class="header">
           <div class="header__logo">
@@ -48,7 +53,7 @@
           <div class="promo__link">или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a></div>
         </div>
       </div>
-    </div>
+    </section>
     <section class="advantage">
       <div class="container">
         <h3 class="title title__advantage">НАШИ ПРЕИМУЩЕСТВА</h3>
@@ -108,6 +113,33 @@
         </form>
       </div>
     </section>
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel__inner">
+          <div><img src="img/carousel/watch_1.jpg" alt="slide" /></div>
+          <div>
+            <img src="img/carousel/polar_m400_triple.jpg" alt="slide" />
+          </div>
+          <div><img src="img/carousel/polar_m600_trio.jpg" alt="slide" /></div>
+        </div>
+        <button type="button" class="prev">
+          <img src="icons/carousel/chevron_left_solid.png" alt="arr-left" />
+        </button>
+        <button type="button" class="next">
+          <img src="icons/carousel/chevron_right_solid.png" alt="arr-right" />
+        </button>
+      </div>
+    </section>
+    <!-- <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="js/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

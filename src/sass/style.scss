@@ -4,6 +4,7 @@
 .container {
    max-width: 950px;
    margin: 0 auto;
+   position: relative;
 }
 @import "blocks/_promo";
 @import "blocks/header";
@@ -13,4 +14,5 @@
 @import "blocks/text";
 @import "blocks/_consultation";
 @import "blocks/forms";
+@import "blocks/carousel";
 @import "base/media";
