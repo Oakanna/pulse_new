@@ -16,9 +16,25 @@
       top: 50%;
       left: -66px;
       transform: translateY(-50%);
+      border: 0;
    }
    .next {
       left: auto;
       right: -66px;
+   }
+   .tns-nav {
+      text-align: center;
+      button {
+         width: 15px;
+         height: 15px;
+         border-radius: 100%;
+         border: $main-color solid 1px;
+         &:not(:last-child) {
+            margin-right: 5px;
+         }
+      }
+      &-active {
+         background: $main-color;
+      }
    }
 }

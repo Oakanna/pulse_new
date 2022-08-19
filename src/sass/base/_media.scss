@@ -6,6 +6,19 @@
    .feed-form {
       margin: 0 auto;
    }
+   .carousel {
+      &__inner {
+         img {
+            width: 60%;
+         }
+      }
+      .prev {
+         left: -20px;
+      }
+      .next {
+         right: -20px;
+      }
+   }
 }
 @media (max-width: 768px) {
    .promo {
@@ -21,6 +34,18 @@
    .header {
       justify-content: space-around;
       &__official {
+         display: none;
+      }
+   }
+   .carousel {
+      &__inner {
+         img {
+            width: 70%;
+            margin-bottom: 10px;
+         }
+      }
+      .prev,
+      .next {
          display: none;
       }
    }
@@ -76,6 +101,14 @@
    }
    .consultation__descr {
       font-size: 16px;
+   }
+   .carousel {
+      .tns-nav {
+         button {
+            width: 10px;
+            height: 10px;
+         }
+      }
    }
 }
 @media (max-width: 375px) {
