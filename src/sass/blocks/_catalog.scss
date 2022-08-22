@@ -1,0 +1,41 @@
+.catalog {
+   padding-bottom: 103px;
+   &__tabs {
+      display: flex;
+      justify-content: space-between;
+      width: 620px;
+      margin: 0 auto;
+      margin-bottom: 59px;
+   }
+   &__tab {
+      width: 200px;
+      height: 50px;
+      border: 2px solid #d0d0d0;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #6b6b6b;
+      text-align: center;
+      line-height: 50px;
+      transform: skewX(-25deg);
+      cursor: pointer;
+      &_active {
+         background: $main-color;
+         color: #fff;
+         border: none;
+      }
+      div {
+         transform: skewX(25deg);
+      }
+      &:hover {
+         box-shadow: 3px 3px 10px $main-color;
+         border: none;
+      }
+   }
+   &__cards {
+      display: flex;
+      justify-content: space-between;
+      &:not(:last-child) {
+         margin-bottom: 20px;
+      }
+   }
+}
