@@ -31,6 +31,7 @@
          border: none;
       }
    }
+<<<<<<< HEAD
    &__content {
       display: none;
       justify-content: space-between;
@@ -141,6 +142,13 @@
          color: $main-color;
          text-decoration: underline;
          text-transform: uppercase;
+=======
+   &__cards {
+      display: flex;
+      justify-content: space-between;
+      &:not(:last-child) {
+         margin-bottom: 20px;
+>>>>>>> 8e3901ce8ac18e4137d6c81a1b1d59a3bd137567
       }
    }
 }
