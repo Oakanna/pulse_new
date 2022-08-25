@@ -1,0 +1,39 @@
+.review {
+   padding-bottom: 71px;
+   &__client {
+      display: flex;
+      &:not(:last-child) {
+         margin-bottom: 102px;
+      }
+      img {
+         align-items: start;
+         max-width: 170px;
+         max-height: 170px;
+         display: block;
+         margin-right: 62px;
+      }
+   }
+   &__body {
+      max-width: 650px;
+      font-weight: 300;
+      color: #0d0d0d;
+   }
+   &__subtitle {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+   }
+   &__expirien {
+      color: #646464;
+      margin-bottom: 16px;
+   }
+   &__descr {
+      font-size: 16px;
+
+      p {
+         &:not(:last-child) {
+            margin-bottom: 22px;
+         }
+      }
+   }
+}

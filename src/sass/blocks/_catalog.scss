@@ -1,9 +1,10 @@
 .catalog {
    padding-bottom: 103px;
+
    &__tabs {
       display: flex;
       justify-content: space-between;
-      width: 620px;
+      max-width: 620px;
       margin: 0 auto;
       margin-bottom: 59px;
    }
@@ -33,8 +34,8 @@
    }
    &__content {
       display: none;
-      justify-content: space-between;
       flex-wrap: wrap;
+      margin: 0 -10px;
       &_active {
          display: flex;
       }
@@ -45,6 +46,7 @@
       min-height: 440px;
       padding: 20px 20px 26px 20px;
       overflow: hidden;
+      margin: 0 10px;
       margin-bottom: 20px;
       &__img {
          display: block;

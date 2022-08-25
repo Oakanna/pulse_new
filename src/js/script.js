@@ -24,11 +24,12 @@ const slider = tns({
   autoplay: false,
   controls: false,
   navPosition: "bottom",
+
   responsive: {
     320: {
       nav: true,
     },
-    769: {
+    1024: {
       nav: false,
     },
   },
