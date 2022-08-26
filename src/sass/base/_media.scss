@@ -27,6 +27,9 @@
          }
       }
    }
+   .review {
+      padding: 0 15px;
+   }
 }
 @media (max-width: 768px) {
    .promo {
@@ -83,6 +86,25 @@
       &__content {
          &_active {
             justify-content: center;
+         }
+      }
+   }
+   .review {
+      &__client {
+         flex-wrap: wrap;
+         justify-content: center;
+         img {
+            margin-bottom: 20px;
+            margin-right: 0;
+         }
+      }
+      &__body {
+         text-align: center;
+         p {
+            text-align: center;
+            &:not(:last-child) {
+               margin-bottom: 12px;
+            }
          }
       }
    }
@@ -148,11 +170,16 @@
       }
    }
    .catalog {
-      &__tabs {
-         // width: 400px;
-      }
       &__tab {
          flex-basis: 90%;
+      }
+   }
+   .review {
+      &__body {
+         // padding: 0 20px;
+         p {
+            font-size: 14px;
+         }
       }
    }
 }
@@ -255,7 +282,5 @@
    }
    .feed-form {
       width: 275px;
-   }
-   .catalog {
    }
 }

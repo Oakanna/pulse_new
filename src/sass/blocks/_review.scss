@@ -2,11 +2,11 @@
    padding-bottom: 71px;
    &__client {
       display: flex;
+
       &:not(:last-child) {
          margin-bottom: 102px;
       }
       img {
-         align-items: start;
          max-width: 170px;
          max-height: 170px;
          display: block;
