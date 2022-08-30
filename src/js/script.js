@@ -113,5 +113,23 @@ $(document).ready(function () {
   validateForm("#order form");
 
   $("input[name=phone]").mask("+7 (999) 999-99-99");
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1600) {
+      $(".pageup").fadeIn();
+    } else {
+      $(".pageup").fadeOut();
+    }
+  });
+  const $page = $("html, body");
+  $('a[href*="#"]').click(function () {
+    $page.animate(
+      {
+        scrollTop: $($.attr(this, "href")).offset().top,
+      },
+      400
+    );
+    return false;
+  });
 });
 jQuery;
