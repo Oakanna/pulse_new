@@ -29,6 +29,7 @@
    }
    .review {
       padding: 0 15px;
+      padding-bottom: 71px;
    }
 }
 @media (max-width: 768px) {
@@ -89,6 +90,11 @@
          }
       }
    }
+   .button {
+      &:hover {
+         box-shadow: none;
+      }
+   }
    .review {
       &__client {
          flex-wrap: wrap;
@@ -106,6 +112,19 @@
                margin-bottom: 12px;
             }
          }
+      }
+   }
+   .footer {
+      &__descr {
+         width: 400px;
+         height: 200px;
+         padding: 25px 30px;
+      }
+      &__addr {
+         margin-bottom: 20px;
+      }
+      &__phone {
+         margin-bottom: 20px;
       }
    }
 }
@@ -182,6 +201,27 @@
          }
       }
    }
+   .footer {
+      &__descr {
+         width: 320px;
+      }
+      &__addr {
+         font-size: 16px;
+      }
+   }
+   .modal {
+      width: 300px;
+      padding: 30px;
+      .feed-form {
+         width: 220px;
+      }
+      &__descr {
+         font-size: 16px;
+      }
+   }
+   .button__consultation {
+      font-size: 14px;
+   }
 }
 @media (max-width: 375px) {
    .promo {
@@ -220,6 +260,25 @@
             height: 50px;
             font-size: 16px;
          }
+      }
+   }
+   .footer {
+      &__descr {
+         width: 400px;
+         height: 200px;
+         padding: 25px 30px;
+      }
+      &__addr {
+         margin-bottom: 20px;
+      }
+      &__phone {
+         margin-bottom: 20px;
+      }
+   }
+   .modal {
+      &__close {
+         top: 3px;
+         right: 0;
       }
    }
 }
@@ -282,5 +341,10 @@
    }
    .feed-form {
       width: 275px;
+   }
+   .footer {
+      &__descr {
+         width: 320px;
+      }
    }
 }
